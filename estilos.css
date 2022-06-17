@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+font-size: 1rem;
+line-height: 1.5;
+color: black;
+background: #fff;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fondo .nocturno{
+    display: flex;
+    width: 900px;
+    height: 789px;
+    
+   
+}
+
+.padre{
+   
+    flex-grow: 1;
+    text-align: center;
+  
+}
+     
+.logo{
+    width: 150px;
+}
+
+
+h2{
+    padding: .1rem;
+    color:#e03d38;
+}
+button{
+    border: 3px solid #e03d38;
+    margin: 30px auto 0;
+    padding: 14px 15px;
+    color: white;
+    background: #e03d38;
+    width: 200px;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
